@@ -1,0 +1,142 @@
+body {
+  font-family: "Montserrat", helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #dbf2c0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  color: #639a67;
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 0px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  color: #639a67;
+  background-color: white;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  width: 50%;
+  margin: auto;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+}
+
+.buttons {
+  width: fit-content;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.round-button {
+  background-color: #639a67;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  outline: none;
+  font-family: "Montserrat", helvetica, sans-serif;
+  font-size: 18px;
+  border-radius: 50%
+}
+
+.round-button:focus {
+  background-color: #53ab56;
+}
+
+.fruit-images {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: auto;
+}
+
+.fruit-img-container {
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.fruit-img-container:hover {
+  cursor: pointer;
+}
+
+.fruit-images img {
+  width: 50px;
+  height: auto;
+  padding: 20px;
+  margin: auto;
+}
+
+.axisLabel {
+  font-family: "Montserrat", helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.axis {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Montserrat", helvetica, sans-serif;
+}
+
+/* styling for ul adpated from https://www.w3.org/Style/Examples/007/leaders.en.html */
+
+ul {
+  max-width: 50%;
+  margin: auto;
+  padding: 0;
+  overflow-x: hidden;
+  list-style: none
+}
+
+ul li:before {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content: 
+  ". . . . . . . . . . . . . . . . . . . . " 
+  ". . . . . . . . . . . . . . . . . . . . " 
+  ". . . . . . . . . . . . . . . . . . . . " 
+  ". . . . . . . . . . . . . . . . . . . . "
+  ". . . . . . . . . . . . . . . . . . . . "
+  ". . . . . . . . . . . . . . . . . . . . "
+}
+
+ul span:first-child {
+  padding-right: 5px;
+  background-color: #dbf2c0;
+}
+
+ul span+span {
+  padding-left: 5px;
+  float: right;
+  background-color: #dbf2c0;
+}
+
+footer {
+  font-size: 10px;
+  text-align: center;
+  padding: 20px;
+}

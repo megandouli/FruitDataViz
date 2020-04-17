@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Compositions Of Common Fruits</h1>
+    <p>Curious about how your favorite fruits break down?</p>
+    <p>Choose a fruit or a category to begin!</p>
+
+    <div class='buttons'>
+        <button class="round-button">Water</button>
+        <button class="round-button">Protein</button>
+        <button class="round-button">Fat</button>
+        <button class="round-button">Sugars</button>
+        <button class="round-button">Fiber</button>
+    </div>
+
+    <div class="fruit-images">
+        <div class="fruit-img-container" id="apple">
+            <img src="icons/apple-1.png" alt="apple icon">
+        </div>
+        <div class="fruit-img-container" id="banana">
+            <img src="icons/banana.png" alt="banana icon">
+        </div>
+        <div class="fruit-img-container" id="blueberry">
+            <img src="icons/blueberries.png" alt="bluberry icon">
+        </div>
+        <div class="fruit-img-container" id="cherry">
+            <img src="icons/cherries.png" alt="cherry icon">
+        </div>
+        <div class="fruit-img-container" id="grape">
+            <img src="icons/grapes.png" alt="grapes icon">
+        </div>
+        <div class="fruit-img-container" id="orange">
+            <img src="icons/orange.png" alt="orange icon">
+        </div>
+        <div class="fruit-img-container" id="peach">
+            <img src="icons/peach.png" alt="peach icon">
+        </div>
+        <div class="fruit-img-container" id="pear">
+            <img src="icons/pear.png" alt="pear icon">
+        </div>
+        <div class="fruit-img-container" id="pineapple">
+            <img src="icons/pineapple.png" alt="pineapple icon">
+        </div>
+        <div class="fruit-img-container" id="pomegranate">
+            <img src="icons/pomegranate.png" alt="pomegranate icon">
+        </div>
+        <div class="fruit-img-container" id="raspberry">
+            <img src="icons/raspberry.png" alt="raspberry icon">
+        </div>
+        <div class="fruit-img-container" id="strawberry">
+            <img src="icons/strawberry.png" alt="strawberry icon">
+        </div>
+        <div class="fruit-img-container" id="watermelon">
+            <img src="icons/watermelon.png" alt="watermelon icon">
+        </div>
+    </div>
+    <div id="fruit-info">
+        <h2>Wait, so how much is 100g of a fruit?</h2>
+        <ul>
+            <li><span>100g of apple</span><span>1 medium-sized</span></li>
+            <li><span>100g of banana</span><span>1 medium-sized</span></li>
+            <li><span>100g of blueberries</span><span>1 cup</span></li>
+            <li><span>100g of cherries</span><span>about 1/2 cup, pitted</span></li>
+            <li><span>100g of grapes</span><span>1 cup</span></li>
+            <li><span>100g of orange</span><span>half of a large orange</span></li>
+            <li><span>100g of peach</span><span>a little less than 1/2 cup</span></li>
+            <li><span>100g of pear</span><span>half of a large pear</span></li>
+            <li><span>100g of pineapple</span><span>1/2 cup</span></li>
+            <li><span>100g of pomegranate</span><span>3/4 cup of seeds</span></li>
+            <li><span>100g of raspberries</span><span>3/4 cup</span></li>
+            <li><span>100g of strawberries</span><span>2/3 cup, halved</span></li>
+            <li><span>100g of watermelon</span><span>2/3 cup</span></li>
+        </ul>
+    </div>
+    <h2 id="selected-fruit-name"></h2>
+    <div id="chart"></div>
+    <footer>
+        Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+    </footer>
+</body>
+
+<script src="./script.js"></script>
+
+</html>
